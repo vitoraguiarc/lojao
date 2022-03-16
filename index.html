@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/02a1c8bf88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Lojão</title>
+</head>
+<body>
+    <header>
+        <div class="logo-icons-s">
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <form action="#" method="post">
+                <input type="text" name="search" id="busca" placeholder="O que você procura?">
+                <button type="submit" class="fas fa-search"></button>
+                <i class="fa-solid fa-user icons"></i>
+                <i class="fa-solid fa-cart-shopping icons"></i>
+            </form>
+        </div>
+           
+        <div class="links-pages">
+            <p>Home</p>
+            <p>Produtos</p>
+            <p>Destaques</p>
+            <p>Promoções</p>
+            <p>Contato</p>
+        </div>
+       
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <!-- radio-buttons -->
+                <input type="radio" name="radio-button" id="radio1">
+                <input type="radio" name="radio-button" id="radio2">
+                <input type="radio" name="radio-button" id="radio3">
+                <input type="radio" name="radio-button" id="radio4">
+
+                <!-- slides -->
+                <div class="slide first">
+                    <img src="./img/1.png" alt="slide-1">
+                </div>
+                <div class="slide">
+                    <img src="./img/2.png" alt="slide-2">
+                </div>
+                <div class="slide">
+                    <img src="./img/3.png" alt="slide-3">
+                </div>
+                <div class="slide">
+                    <img src="./img/4.png" alt="slide-4">
+                </div>
+
+                 <!-- auto-slides -->
+                 <div class="nav-auto">
+                     <div class="btn-1"></div>
+                     <div class="btn-2"></div>
+                     <div class="btn-3"></div>
+                     <div class="btn-4"></div>
+                 </div>
+
+            </div>
+            <div class="manual-nav">
+                <label for="radio1" class="btn-manual"></label>
+                <label for="radio2" class="btn-manual"></label>
+                <label for="radio3" class="btn-manual"></label>
+                <label for="radio4" class="btn-manual"></label>
+            </div>
+        </div>
+    </main> 
+    
+    
+</body>
+</html>
