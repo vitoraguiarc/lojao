@@ -17,3 +17,4 @@ const passarImagens = () =>{
     document.getElementById('radio'+contador).checked = true
     
 }
+
